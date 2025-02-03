@@ -30,6 +30,6 @@ chmod 700 get_helm.sh
 printf "\n\033[1;36m## Installing Minikube\033[0m\n"
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
-minikube start --cpus=18 --memory=18g
+minikube start --cpus=18 --memory=18g --force
 
 printf "\n\033[1;32m## You can now run the deployEnv script!\033[0m\n\n"
